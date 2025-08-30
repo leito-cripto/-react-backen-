@@ -1,0 +1,23 @@
+{
+  "name": "react-backen-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "type": "module",   
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "express-handlebars": "^8.0.3",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
+

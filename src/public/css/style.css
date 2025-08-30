@@ -1,0 +1,61 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f9fafc;
+  color: #333;
+  padding: 20px;
+}
+
+h1, h2 {
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+ul li {
+  background: #ecf0f1;
+  margin-bottom: 8px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+form {
+  margin-bottom: 20px;
+  padding: 15px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+form input {
+  padding: 8px;
+  margin: 5px;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+}
+
+form button {
+  padding: 8px 15px;
+  background: #3498db;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+form button:hover {
+  background: #2980b9;
+}
